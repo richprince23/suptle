@@ -1647,3 +1647,36 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.member-img{
+  /* width: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-pic{
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px auto;
+}
+
+.social * i {
+  padding: 4px;
+}
+
+.team-item{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
